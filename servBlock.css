@@ -1,0 +1,18 @@
+.services-pics {
+    margin-top: 160px;
+    margin-bottom: 125px;
+}
+.container {
+}
+.services-pics__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.service__block {
+}
+.service__block__img {
+}
+.service__block__title {
+}

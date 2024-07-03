@@ -1,0 +1,40 @@
+.section-col {
+}
+.paw-title {
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 117%;
+    text-transform: capitalize;
+    color: var(--333333);   
+}
+.paw-list {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+color: #000;
+padding-left: 40px;
+}
+
+.paw-list li {
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.paw-list li::before{
+    content: '';
+
+    display: block;
+    width: 22px;
+    height: 22px;
+
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    transform: translateX(-100% 0);
+    background-image: url('./img/icons/Layer_1.svg');
+
+} 
